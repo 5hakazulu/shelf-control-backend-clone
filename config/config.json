@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "shelf_control_backend_user",
+    "password": "qcAjIHkZO8S0NDSYlGM4VOHCnrud3X2W",
+    "database": "shelf_control_backend",
+    "host": "dpg-cgm9u9jhp8udl0s6nibg-a",
     "dialect": "mysql"
   }
 }
