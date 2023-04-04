@@ -18,6 +18,6 @@
     "password": "qcAjIHkZO8S0NDSYlGM4VOHCnrud3X2W",
     "database": "shelf_control_backend",
     "host": "dpg-cgm9u9jhp8udl0s6nibg-a",
-    "dialect": "mysql"
+    "dialect": "postgres"
   }
 }
