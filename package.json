@@ -1,0 +1,50 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "router": "^1.3.8",
+    "sequelize": "^6.29.3",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.0"
+  },
+  "production": {
+    "username": "shelfcontrol_user",
+    "password": "a75s3hb6Jh7CuBZ3x6BFYcjH06QhgIte",
+    "database": "shelfcontrol",
+    "host": "dpg-cghodp2k728s1bpn159g-a",
+    "dialect": "postgres"
+  },
+  "development": {
+    "username": "postgres",
+    "password": "",
+    "database": "shelcontrol",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5432
+  }
+  
+}
+
+
+  
