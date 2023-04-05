@@ -1,14 +1,14 @@
 import { Sequelize, DataTypes, Model } from "sequelize";
 
 const sequelize = new Sequelize("shelfcontrol", "postgres", "", {
-  host: "localhost",
+  host: "dpg-cgm9u9jhp8udl0s6nibg-a",
   dialect: "postgres",
   port: 5432,
 });
 
 console.log(sequelize)
 
-class User extends Model {}
+class User extends Model { }
 User.init(
   {
     id: {
@@ -36,12 +36,12 @@ User.init(
   },
   {
     sequelize,
-    modelName: "Users", 
-    timestamps: false, 
+    modelName: "Users",
+    timestamps: false,
   }
 );
 
-class Book extends Model {}
+class Book extends Model { }
 Book.init(
   {
     id: {
@@ -96,7 +96,7 @@ Book.init(
   {
     sequelize,
     modelName: "Book",
-    timestamps: false, 
+    timestamps: false,
   }
 );
 
